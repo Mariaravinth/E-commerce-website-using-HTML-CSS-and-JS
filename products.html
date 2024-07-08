@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,15 +20,18 @@
             </div>
             <nav>
                 <ul id="MenuItems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Account</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#footer">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
-            <img src="images/cart.png" width="30px" height="30px" alt="">
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            <a href="cart.html"><img src="images/cart.png" width="30px"
+                height="30px">
+        </a>
+        <img src="images/menu.png" class="menu-icon"
+            onclick="menutoggle()">
         </div>
     </div>
     </div>
@@ -45,9 +47,13 @@
             </select>
         </div>
         <div class="row">
-            <div class="col-4">
-                <img src="images/product-1.jpg" alt="">
-                <h4>Red Printed T-Shirt</h4>
+            <div class="col-4">                
+                <a href="product-details.html"><img
+                    src="images/product-1.jpg">
+            </a>
+            <a href="product-details.html"><h4>Red Printed
+                    T-Shirt</h4>
+            </a>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -77,7 +83,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-stroke"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -89,7 +95,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa-regular fa-star"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -103,7 +109,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa-regular fa-star"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -115,7 +121,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-stroke"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -127,7 +133,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-stroke"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -139,7 +145,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa-regular fa-star"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -153,7 +159,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa-regular fa-star"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -165,7 +171,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-stroke"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -177,7 +183,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-half-stroke"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -189,7 +195,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
+                    <i class="fa-regular fa-star"></i>
                 </div>
                 <p>$50.00</p>
             </div>
@@ -204,7 +210,7 @@
     </div>
 
     <!-- footer -->
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col-1">
@@ -231,7 +237,7 @@
                     </ul>
                 </div>
                 <div class="footer-col-4">
-                    <h3>Fllow Us On:</h3>
+                    <h3>Fllow Us</h3>
                     <ul>
                         <li>Facebook</li>
                         <li>Twitter</li>
